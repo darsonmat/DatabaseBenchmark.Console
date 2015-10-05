@@ -1,0 +1,3 @@
+[submodule "DatabaseBenchmark.Core"]
+	path = DatabaseBenchmark.Core
+	url = https://github.com/STSSoft/DatabaseBenchmark.Core
