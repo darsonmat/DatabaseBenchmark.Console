@@ -13,14 +13,14 @@ It provides the basic functionality needed to perform a database evaluation:
 
 ## Basic usage
 
-* Create a default configuration file (if none available):
-```Shell
-DatabaseBenchmark.Console --createConfig="path_to_create_file"
-```
-
 * Start the benchmarking. If no arguments are provided, the application searches for the default configuration file "DefaultConfig.config" in the application directory :
 ```Shell
 DatabaseBenchmark.Console
+```
+
+* Create a default configuration file (if none available):
+```Shell
+DatabaseBenchmark.Console --createConfig="path_to_create_file"
 ```
 
 * Start the benchmarking with a specified configuration file:
