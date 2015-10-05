@@ -1,6 +1,6 @@
 # Database Benchmark for Console
 ## Overview
-Database Benchmark for Console is a multi-platform console implementation of Database Benchmark.
+Database Benchmark for Console is a multi-platform console implementation of Database Benchmark (https://github.com/STSSoft/DatabaseBenchmark).
 
 It provides the basic functionality needed to perform a database evaluation:
 
@@ -8,12 +8,12 @@ It provides the basic functionality needed to perform a database evaluation:
 * Generates reports with the test results in CSV or JSON format.
 
 ## Supported platforms
-* Windows - Microsoft .NET Framework 4.0+ or Mono 4.0.0+
-* Linux - Mono 4.0.0+
+* Windows - requires Microsoft .NET Framework 4.0+ or Mono 4.0.0+
+* Linux - requires Mono 4.0.0+
 
 ## Basic usage
 
-* Start the benchmarking. If no arguments are provided, the application searches for the default configuration file "DefaultConfig.config" in the application directory :
+* Starting the application. If no arguments are provided, the application searches for the default configuration file "DefaultConfig.config" in the application startup directory :
 ```Shell
 DatabaseBenchmark.Console
 ```
